@@ -2,7 +2,7 @@ import React from 'react'
 import  {useState } from 'react'
 import {Link,useNavigate} from 'react-router-dom'
 import { toast } from 'react-toastify'
-import ProfileHeader from '../components/ProfileHeader'
+import ProfileHeader from '../Components/ProfileHeader'
 import axios from 'axios'
 
 const AddEducation = () => {
