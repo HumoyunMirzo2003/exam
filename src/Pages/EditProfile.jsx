@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-import ProfileHeader from '../components/ProfileHeader'
+import ProfileHeader from '../Components/ProfileHeader'
 import { toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
 

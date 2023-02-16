@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ProfileHeader from '../components/ProfileHeader'
+import ProfileHeader from '../Components/ProfileHeader'
 import { Link, useParams } from 'react-router-dom'
 import axios from 'axios'
 import { toast } from 'react-toastify'
@@ -63,7 +63,7 @@ const Post = () => {
 
     return (
         <>
-            <Header />
+            <ProfileHeader />
             {(!yourPost) ? <div className='container d-flex justify-content-center mt-5'>
                 <img src="/load.gif" alt="" />
             </div>
