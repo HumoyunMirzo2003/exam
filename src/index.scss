@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    header {
+      background-color: #343a40de;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      h1 a{
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        text-decoration: none;
+        &:hover {
+          color: #17a2b8;
+        }
+      }
+  
+      nav {
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 26px;
+          list-style: none;
+  
+          .link {
+            color: white;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+  
+            &:hover {
+              color: #17a2b8;
+            }
+          }
+        }
+      }
+    }
+    .home {
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background:rgba(0,0,0,0.7) url(https://nt-devconnector.onrender.com/static/media/showcase.33c7a31b.jpg);
+        background-blend-mode: darken;
+        background-size: 100vw 100vh;
+
+        section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 80vh;
+      
+          h1 {
+            color: white;
+            font-size: 60px;
+          }
+      
+          h2 {
+            color: white;
+            font-size: 27px;
+            padding: 50px 0;
+          }
+        }
+    }
+    .container{
+      margin: 6rem auto 3rem;
+      h1{
+        font-family: "Raleway",sans-serif;
+        color: #17a2b8;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .lead{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      form{
+        .form-group{
+          margin: 1.2rem 0;
+          input{
+            display: block;
+            width: 100%;
+            padding: .4rem;
+            font-size: 1.2rem;
+            border: 1px solid #ccc;
+          }
+        }
+      }
+      .profile{
+        display: grid;
+        grid-template-columns: 2fr 4fr 2fr;
+        align-items: center;
+        grid-gap: 2rem;
+        padding: 1rem;
+        line-height: 1.8;
+        margin-bottom: 1rem;
+      }
+    }
+}
